@@ -1,2 +1,11 @@
-# openv-privacy
-Öffentliche Datenschutzerklärung für die kostenlose Android-App Öpen-V von Erik Tomczyk / Ambivalenton.
+# Öpen-V · Datenschutz
+
+Öffentliche Datenschutzerklärung für die VRR-/Play-Fassung der kostenlosen Android-App Öpen-V.
+
+https://ambivalenton.github.io/openv-privacy/
+
+Verantwortlich: Erik Tomczyk · Ambivalenton
+
+Support und Datenschutz: oepenvapp@gmail.com
+
+Die Seite enthält keine Analyse-Skripte, Werbung oder externen Schriftdateien.
