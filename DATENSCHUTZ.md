@@ -12,7 +12,7 @@ Kontakt für Support und Datenschutz: [oepenvapp@gmail.com](mailto:oepenvapp@gma
 
 Öffentliche Datenschutzerklärung: [ambivalenton.github.io/openv-privacy](https://ambivalenton.github.io/openv-privacy/).
 
-Diese Erklärung beschreibt die VRR-/Play-Fassung der Android-App (dev.ambivalenton.openv) und ihre parallele Test-App (dev.ambivalenton.openv.vrrtest). Bei selbst eingetragenen Orts-, Karten- oder Gehführungsdiensten ändern sich die entsprechenden Empfänger. Externe Anbieter und das Betriebssystem verarbeiten Daten zusätzlich nach ihren eigenen Informationen. Der Entwickler betreibt keinen eigenen Server zum Sammeln von App-Nutzungsdaten.
+Diese Erklärung gilt für die Android-App Öpen-V (dev.ambivalenton.openv). Bei selbst eingetragenen Orts-, Karten- oder Gehführungsdiensten ändern sich die entsprechenden Empfänger. Externe Anbieter und das Betriebssystem verarbeiten Daten zusätzlich nach ihren eigenen Informationen. Der Entwickler betreibt keinen eigenen Server zum Sammeln von App-Nutzungsdaten.
 
 ## 2 · Was auf deinem Gerät bleibt
 
@@ -40,7 +40,7 @@ Start, Ziel, gegebenenfalls Zwischenstopps und benötigte Koordinaten können zu
 
 **Minimieren beendet die Begleitung nicht.** Das Entfernen auf der Reisekarte oder die Aktion Reise beenden in der Benachrichtigung beendet Dienst, Sensoranmeldung und weitere Fahrtabfragen; eine plausibel erkannte Zielankunft kann die Reise ebenfalls abschließen. Android kann Hintergrundarbeit selbst beenden. Benachrichtigungen werden lokal erzeugt, ohne Push-Server; ab Android 13 wird die Freigabe separat angefragt.
 
-**Widgets und Anzeigetafel:** Abfahrten können auch bei geschlossener App systemgesteuert aktualisiert werden. Die VRR-/Play-Fassung fordert keine zusätzliche Hintergrundstandort-Berechtigung für Widgets an. Als Grundlage dienen ein fester Ort oder die zuletzt freigegebene Position; eine neue Position kann bei geöffneter App oder über die sichtbare manuelle Aktualisierung angefordert werden. Android kann die ungefähr viertelstündlichen Aktualisierungen verschieben.
+**Widgets und Anzeigetafel:** Abfahrten können auch bei geschlossener App systemgesteuert aktualisiert werden. Öpen-V fordert keine zusätzliche Hintergrundstandort-Berechtigung für Widgets an. Als Grundlage dienen ein fester Ort oder die zuletzt freigegebene Position; eine neue Position kann bei geöffneter App oder über die sichtbare manuelle Aktualisierung angefordert werden. Android kann die ungefähr viertelstündlichen Aktualisierungen verschieben.
 
 **Bubble:** Die freiwillige Sondererlaubnis Über anderen Apps einblenden zeigt die vorhandene Reise als Overlay. Die Bubble startet keine zweite Standort-, Sensor- oder Netzwerkschleife. Ihre Seite, Höhe und eine reisebezogene Ausblendung werden lokal gespeichert. Auf dem Sperrbildschirm bleibt sie verborgen. Schließen blendet nur die Bubble aus.
 
@@ -96,11 +96,9 @@ Wenn eingeschaltet, berechnet die App auf Fußwegen einer angepinnten Reise aus 
 
 Ein Vorschlag verändert dein Gehtempo erst nach Übernehmen. Unter Fahrt & Navigation → Fußwege & Navigation kannst du das Lernen abschalten und Messungen löschen. Ausschalten allein löscht den bisherigen Bestand nicht.
 
-## 7 · Sichern, Teilen und externe Navigation
+## 7 · Sicherung und externe Navigation
 
 **Export / Import** öffnet erst nach Antippen den Android-Dateidialog. Eine unverschlüsselte JSON-Sicherung enthält Einstellungen, persönliche Themes, Favoriten mit Orten, Netzplan, Suchverlauf und Textchronik. Von vorgemerkten Fahrten werden nur die nutzerseitigen Suchangaben im Suchverlauf gesichert. Vollständige Fahrtantworten, Prognosen, Live-GPS, aktuelle Abfahrtscaches und persönliche Lernwerte werden nicht exportiert. Öpen-V lädt die Datei nicht selbst hoch. Wählst du einen Cloud-Speicher, verarbeitet dessen Betreiber die Datei nach seinen Bedingungen. Import prüft die Datei und ersetzt den Bestand erst nach Bestätigung. Lösche Exportdateien selbst am gewählten Speicherort.
-
-**Fahrplandatenexport:** Das Erstellen und Teilen von Fahrplanbildern, Live-Statusbildern oder Texten mit übernommenen Fahrtantworten wird in dieser Fassung nicht angeboten. Die persönliche JSON-Sicherung enthält keine vollständigen Fahrtdaten.
 
 **Externe Navigation** öffnet nach Antippen OpenStreetMap oder die gewählte Karten-App. Je nach Modus gehen Ziel und ein bereits bekannter Start an OpenStreetMap mit Routingdienst oder an Google Maps. Das Gehprofil wird bei direkter Navigation übergeben; Google Maps bestimmt seinen Start nach eigenen Freigaben. Der reine Standortmodus übergibt nur das Ziel. Fehlt die App, kann eine Webansicht geöffnet werden. Öpen-V fordert dafür keinen zusätzlichen Standort an. Es gelten die Bedingungen des gewählten Dienstes.
 
@@ -123,7 +121,7 @@ Es gibt kein Benutzerkonto und damit keine Kontolöschung. Standort- oder Wetter
 
 ## 10 · Sicherheit und Änderungen
 
-Die App nutzt HTTPS und lässt keinen unverschlüsselten Netzwerkverkehr zu. Redaktionelle Texte, Hilfen, Illustrationen und Übersetzungen funktionieren lokal. Es gibt keinen generativen KI-Dienst während der Nutzung. Absolute Sicherheit kann keine Software garantieren. Bei geänderten Funktionen oder Diensten wird diese Erklärung angepasst; maßgeblich ist die zur jeweiligen App-Fassung gehörende Version.
+Die App nutzt HTTPS und lässt keinen unverschlüsselten Netzwerkverkehr zu. Redaktionelle Texte, Hilfen, Illustrationen und Übersetzungen funktionieren lokal. Es gibt keinen generativen KI-Dienst während der Nutzung. Absolute Sicherheit kann keine Software garantieren. Bei geänderten Funktionen oder Diensten wird diese Datenschutzerklärung angepasst.
 
 
 ## 11 · Diese Datenschutz-Webseite

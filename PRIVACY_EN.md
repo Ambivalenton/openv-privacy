@@ -8,7 +8,7 @@ Updated: 13 November 2026.
 
 **Erik Tomczyk**, developer name **Ambivalenton**, is responsible for this app. Contact: [oepenvapp@gmail.com](mailto:oepenvapp@gmail.com).
 
-This policy covers the VRR / Play edition, package dev.ambivalenton.openv, and its parallel test package dev.ambivalenton.openv.vrrtest. Public policy: [ambivalenton.github.io/openv-privacy](https://ambivalenton.github.io/openv-privacy/). The developer does not operate an app analytics or location-collection server.
+This privacy policy applies to the Öpen-V Android app (dev.ambivalenton.openv). Public policy: [ambivalenton.github.io/openv-privacy](https://ambivalenton.github.io/openv-privacy/). The developer does not operate an app analytics or location-collection server.
 
 ## 2 · Local data
 
@@ -24,7 +24,7 @@ Available acceleration sensors supplement local walking patterns. No health/fitn
 
 Minimising does not end guidance. Removing the pin, selecting End journey in its notification, or a plausible destination arrival ends guidance, location/sensor registration and its transit requests. Notifications are generated locally without a push server; Android 13 and later require separate notification permission.
 
-Installed departure widgets may refresh while the app is closed, normally on Android's roughly fifteen-minute schedule. This edition requests no additional background-location permission for widgets. A fixed stop or last permitted position is used. A new position can be obtained while the app or its explicit refresh screen is visible.
+Installed departure widgets may refresh while the app is closed, normally on Android's roughly fifteen-minute schedule. Öpen-V requests no additional background-location permission for widgets. A fixed stop or last permitted position is used. A new position can be obtained while the app or its explicit refresh screen is visible.
 
 The optional floating bubble needs permission to display over other apps. It shows the existing journey without a second location/network loop. Its side, height and journey-specific dismissal are stored locally. It is hidden on the lock screen. Closing it does not end guidance.
 
@@ -62,7 +62,7 @@ If enabled, suitable walking-section measurements produce bounded, decaying spee
 
 Export/import opens Android's file picker after your action. An unencrypted JSON backup contains settings, themes, favourites with locations, network plan, search history and text history. Saved journeys contribute only user search intentions to history. Full transit responses, live forecasts, GPS, departure caches and learning statistics are excluded. Older backups remain readable; their full saved transit responses are discarded while search intentions are retained. Backups can reveal personal places. Selecting cloud storage subjects the file to that provider's terms. Import validates before replacement; delete exported copies separately.
 
-Transit-image and live-status sharing are not offered in this edition. External navigation opens OpenStreetMap or your chosen map app after tapping. Depending on the mode, destination and an already known origin can be passed to OpenStreetMap with a routing service, or the destination to Google Maps. No extra location is requested for this handoff. The recipient's terms apply.
+External navigation opens OpenStreetMap or your chosen map app after tapping. Depending on the mode, destination and an already known origin can be passed to OpenStreetMap with a routing service, or the destination to Google Maps. No extra location is requested for this handoff. The recipient's terms apply.
 
 ## 8 · Legal bases and international processing
 

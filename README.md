@@ -1,6 +1,6 @@
 # Öpen-V · Datenschutz
 
-Öffentliche Datenschutzerklärung für die VRR-/Play-Fassung der kostenlosen Android-App Öpen-V.
+Datenschutzerklärung für die kostenlose Android-App Öpen-V.
 
 https://ambivalenton.github.io/openv-privacy/
 
